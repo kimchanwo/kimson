@@ -1,0 +1,44 @@
+
+
+
+<!doctype html>
+<html>
+<head>
+  <title>CSS</title>
+  <meta charset="utf-8">
+  <style>
+  body{background-color: gray;}
+
+  div[class*="test"] {color: purple;}
+
+  div[class~="test"] {background-color: yellow;}
+
+  .text-center {text-align: center; color: white;}
+  .text-large {font-size: 200%}
+
+  a:hover {color: pink;}
+  input:focus {background-color: purple;}
+  p:active {background-color: pink;}
+
+  </style>
+
+  <body>
+
+    <h1 class="text-center">셀렉터</h1>
+
+    <div class="first-test">first-test</div>
+    <div class="second">second</div>
+    <div class="test">test</div>
+    <hr>
+
+    <div class="text-large"><a href="http://www.naver.com" target="_blank">Hover</a></div>
+    <div><input type="text" value="focus me" width="100" height="100"></div>
+    <hr>
+
+    <p>
+      I love travel every where. my dreams was to be have a lot of money@
+      i want to be reach.
+    </p>
+
+ </body>
+ </html>
